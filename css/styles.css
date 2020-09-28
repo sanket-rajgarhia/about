@@ -192,6 +192,16 @@ hr {
   font-size: 8px;
 }
 
+.logo{
+  display: inline-block;
+  margin: 10px;
+  width: 32px;
+  height: auto;
+}
+.cf{
+  width: 48px;
+  height: auto;
+}
 .license {
   display: inline-block;
   font-size: calc(4px + (6 - 4) * ((100vw - 400px) / (1200 - 400)));
