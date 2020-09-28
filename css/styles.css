@@ -1,0 +1,202 @@
+body {
+  background-color: #e8e8e8;
+  color: #40514E;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #112d4e;
+  font-family: 'Tangerine', cursive;
+  font-size: calc(30px + (90 - 30) * ((100vw - 400px) / (1200 - 400)));
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #112d4e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(12px + (24 - 12) * ((100vw - 400px) / (1200 - 400)));
+  line-height: 2;
+  margin: 50px auto;
+}
+
+h3 {
+  color: #112d4e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(12px + (18 - 12) * ((100vw - 400px) / (1200 - 400)));
+  margin: 0 auto 16px auto;
+  text-align: left;
+}
+
+h4 {
+  color: #112d4e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: calc(10px + (16 - 10) * ((100vw - 400px) / (1200 - 400)));
+  margin: 16px auto;
+  text-align: left;
+}
+
+p {
+  font-size: calc(8px + (14 - 8) * ((100vw - 400px) / (1200 - 400)));
+  height: auto;
+  line-height: 2;
+  margin: 8px auto;
+  max-width: 800px;
+  text-align: justify;
+  width: 70%;
+}
+
+hr {
+  border: none;
+  border-top: dotted 15px #f9f9f9;
+  margin: 75px auto 75px auto;
+  width: 10%;
+}
+
+/* ---------- END OF ELEMENT STYLING SECTION ---------- */
+#top-container {
+  background-color: #5588a3;
+  margin-bottom: 100px;
+  padding: 0;
+}
+
+#hanging-lights {
+  height: auto;
+  max-width: 1280px;
+  width: 47%;
+}
+
+#designation {
+  font-family: 'Merriweather', serif;
+  font-size: calc(10px + (12 - 10) * ((100vw - 400px) / (1200 - 400)));
+  font-weight: normal;
+  margin-top: 8px;
+}
+
+#pro {
+  text-decoration: overline;
+}
+
+#cf-designation {
+  color: #112d4e;
+  text-decoration: none;
+}
+
+#strategy {
+  height: auto;
+  max-width: 512px;
+  width: 10%;
+}
+
+/* ---------- END OF TOP CONTAINER ---------- */
+#middle-container {
+  background-color: #e8e8e8;
+}
+
+#profile-img {
+  border-radius: 200px 0;
+  height: auto;
+  margin: 0 auto;
+  max-width: 512px;
+  width: 30%;
+}
+
+.career-row {
+  margin: 0 auto 100px auto;
+  max-width: 800px;
+  width: 70%;
+}
+
+.career-img {
+  float: left;
+  height: auto;
+  margin-right: 15px;
+  width: 64px;
+}
+
+.career-heading {
+  float: left;
+}
+
+.career-brief {
+  clear: both;
+  margin-left: 0;
+  width: 100%;
+}
+
+/* ---------- END OF MIDDLE CONTAINER ---------- */
+#bottom-container p {
+  text-align: center;
+}
+
+#contact-me {
+  background-color: #87c0cd;
+  /* To prevent margin collapse */
+  border: solid 1px #87c0cd;
+  padding-bottom: 50px;
+}
+
+#collaborate {
+  /* Overriding margin-bottom: 50px set in h2 */
+  margin-bottom: 16px;
+}
+
+.mailto-btn {
+  border: 1px solid white;
+  border-radius: 18px;
+  color: #38598b;
+  display: block;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.4;
+  margin: 25px auto 0 auto;
+  max-width: 220px;
+  max-height: 180px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  width: calc(120px + (220 - 120) * ((100vw - 400px) / (1200 - 400)));
+}
+
+.mailto-btn:hover {
+  background-color: #226597;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+}
+
+#email {
+  height: auto;
+  max-width: 32px;
+  padding-right: 2px;
+  width: 8%;
+}
+
+.footer-link {
+  color: #38598b;
+  display: inline-block;
+  font-family: 'Merriweather', serif;
+  font-size: calc(8px + (10 - 8) * ((100vw - 400px) / (1200 - 400)));
+  font-weight: normal;
+  margin: 30px 4px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #38598b;
+  font-size: 8px;
+}
+
+.license {
+  display: inline-block;
+  font-size: calc(4px + (6 - 4) * ((100vw - 400px) / (1200 - 400)));
+  padding-top: 25px;
+}
+
+.license a {
+  color: grey;
+  text-decoration: none;
+}
+
+/* ---------- END OF BOTTOM CONTAINER ---------- */
