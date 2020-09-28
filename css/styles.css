@@ -183,6 +183,10 @@ hr {
   text-decoration: none;
 }
 
+.fb-like {
+  margin-bottom: 25px;
+}
+
 .copyright {
   color: #38598b;
   font-size: 8px;
